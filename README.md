@@ -90,7 +90,7 @@ pub fn counter() {
   - input handlers
   - component action dispatch
 
-## Running Today
+<!--## Running Today
 
 Current runnable state is the default crate entrypoint in `src/main.rs`.
 

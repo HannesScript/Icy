@@ -2,7 +2,7 @@
 
 ## Priority 0: Foundation
 
-- [ ] Define crate module layout (`App`, `Component`, `StateManagement`, `Renderer`, `Events`)
+- [X] Define crate module layout (`App`, `Component`, `StateManagement`, `Renderer`, `Events`)
 - [ ] Add SDL3 dependency and verify compile/link setup on Linux
 - [ ] Replace placeholder `src/main.rs` with framework bootstrap entry
 - [ ] Decide naming conventions (Rust idiomatic vs framework-specific style)
