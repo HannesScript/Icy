@@ -3,20 +3,20 @@
 ## Priority 0: Foundation
 
 - [X] Define crate module layout (`App`, `Component`, `StateManagement`, `Renderer`, `Events`)
-- [ ] Add SDL3 dependency and verify compile/link setup on Linux
-- [ ] Replace placeholder `src/main.rs` with framework bootstrap entry
-- [ ] Decide naming conventions (Rust idiomatic vs framework-specific style)
+- [X] Add SDL3 dependency and verify compile/link setup on Linux
+- [X] Replace placeholder `src/main.rs` with framework bootstrap entry
+- [X] Decide naming conventions (Rust idiomatic with compatibility re-exports)
 
 ## Priority 1: SDL3 Window + Loop
 
-- [ ] Implement `IcyApp` core struct
-- [ ] Implement `IcyWindow` config struct (width, height, title)
+- [X] Implement `IcyApp` core struct
+- [X] Implement `IcyWindow` config struct (width, height, title)
 - [ ] Implement app lifecycle methods:
-  - [ ] `create_icy_app()`
-  - [ ] `mount_to_window(&window)`
-  - [ ] `show_window()`
-- [ ] Create SDL3 event loop abstraction
-- [ ] Handle app quit and window close events
+  - [X] `create_icy_app()`
+  - [X] `mount_to_window(&window)`
+  - [X] `show_window()`
+- [X] Create SDL3 event loop abstraction
+- [X] Handle app quit and window close events
 
 ## Priority 2: Component System
 
@@ -51,8 +51,8 @@
 
 ## Priority 6: Example App Integration
 
-- [ ] Make `example_app/main.rs` compile against real framework code
-- [ ] Implement working counter demo with increment/decrement
+- [X] Make `example_app/main.rs` compile against real framework code
+- [X] Implement working counter demo with increment/decrement
 - [ ] Verify automatic rerender updates visible counter text
 - [ ] Add an app screenshot/GIF once rendering works
 
@@ -65,8 +65,8 @@
 
 ## Quality and Testing
 
-- [ ] Add unit tests for state updates and component tree behavior
-- [ ] Add integration tests for lifecycle and event loop glue
+- [X] Add unit tests for state updates and component tree behavior
+- [X] Add integration tests for lifecycle and event loop glue
 - [ ] Add smoke test that launches and closes a window cleanly
 - [ ] Add CI checks (`cargo fmt`, `cargo clippy`, `cargo test`)
 

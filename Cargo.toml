@@ -3,4 +3,13 @@ name = "Icy"
 version = "0.1.0"
 edition = "2024"
 
+[features]
+default = []
+sdl-backend = ["dep:sdl3"]
+
 [dependencies]
+sdl3 = { version = "0.14", optional = true, features = ["ttf"] }
+
+[[example]]
+name = "counter_app"
+path = "example_app/main.rs"
